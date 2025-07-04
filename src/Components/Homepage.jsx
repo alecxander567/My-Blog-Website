@@ -61,7 +61,7 @@ function Homepage() {
           <i className="fas fa-blog"></i> My Blogs
         </h2>
         <button className="btn btn-outline-info" onClick={goToLandingPage}>
-          <i className="fas fa-arrow-left me-2"></i>Back to Landing Page
+          <i className="fas fa-arrow-left me-2"></i> Back
         </button>
       </div>
       {blogData.map((blog, index) => (
