@@ -19,7 +19,7 @@ function Homepage() {
         Also we discussed about The History of Information Security just to give us a brief introduction for the
         subject and learned about the enigma machine used by the germans back then ciphering their communications. Base on the introduction of the subjects I pretty much want to learn more about computer networks and security.
         And I also hope that we will survive this school year from projects to exams and activities hopefully everything goes well.`,
-      date: new Date().toLocaleString(),
+      date: "04/07/25",
     }
   ];
 
