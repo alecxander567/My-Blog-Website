@@ -1,6 +1,5 @@
 
 .custom-nav-link {
-  color: #00CEC8;
   transition: color 0.3s, transform 0.2s;
 }
 .custom-nav-link:hover {
@@ -180,7 +179,6 @@
   }
 }
 .btn-3d {
-  background-color: #00cec8;
   border: none;
   box-shadow: 0 5px #009e9a;
   transition: all 0.2s ease-in-out;

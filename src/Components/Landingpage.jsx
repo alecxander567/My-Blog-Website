@@ -9,7 +9,7 @@ function Landingpage() {
         <div>
           <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container">
-              <a className="navbar-brand" href="#home" style={{ fontWeight: "900", color: "#00CEC8" }}>
+              <a className="navbar-brand text-info" href="#home" style={{ fontWeight: "900" }}>
                 <i className="bi bi-journal-code me-2"></i> My Blog Website
               </a>
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -18,13 +18,13 @@ function Landingpage() {
               <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ms-auto">
                   <li className="nav-item">
-                   <a className="nav-link custom-nav-link" href="#home">Home</a>
+                   <a className="nav-link custom-nav-link text-info" href="#home">Home</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link custom-nav-link" href="#features">Features</a>
+                    <a className="nav-link custom-nav-link text-info" href="#features">Features</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link custom-nav-link" href="#about">About Me</a>
+                    <a className="nav-link custom-nav-link text-info" href="#about">About Me</a>
                   </li>
                 </ul>
               </div>
@@ -38,7 +38,7 @@ function Landingpage() {
                     <i className="fas fa-server icon server"></i>
                 </div>
                 <div className="container">
-                    <h1 className="display-4 animated-heading">Welcome to My Blog Website</h1>
+                    <h1 className="display-4 animated-heading text-info">Welcome to My Blog Website</h1>
                     <hr />
                     <p className="lead animated-subheading">
                         Read my weekly blogs about my subjects in Advanced Networking and Information Assurance & Security 1
@@ -57,21 +57,21 @@ function Landingpage() {
                     <div className="row text-center">
                         <div className="col-md-4">
                             <div className="feature-card p-4 shadow-sm">
-                                <i className="fas fa-book-open feature-icon mb-3"></i>
+                                <i className="fas fa-book-open feature-icon mb-3 text-info"></i>
                                 <h4>My Weekly Blogs</h4>
                                 <p>Read about what I have learned during the week and interesting happenings throughout my learning.</p>
                             </div>
                         </div>
                         <div className="col-md-4">
                             <div className="feature-card p-4 shadow-sm">
-                                <i className="fas fa-user-graduate feature-icon mb-3"></i>
+                                <i className="fas fa-user-graduate feature-icon mb-3 text-info"></i>
                                 <h4>Learn with Me</h4>
                                 <p>You might learn something from what I’ve explored and discover what interests me during discussions and activities.</p>
                             </div>
                         </div>
                         <div className="col-md-4">
                             <div className="feature-card p-4 shadow-sm">
-                                <i className="fas fa-paint-brush feature-icon mb-3"></i>
+                                <i className="fas fa-paint-brush feature-icon mb-3 text-info"></i>
                                 <h4>Enjoy Using My Website</h4>
                                 <p>Experience comfort while reading and browsing with a responsive and clean design.</p>
                             </div>
@@ -83,7 +83,7 @@ function Landingpage() {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-md-5 text-center mb-4 mb-md-0">
-                            <i className="fas fa-user-circle about-icon"></i>
+                            <i className="fas fa-user-circle about-icon text-info"></i>
                         </div>
                         <div className="col-md-7">
                             <h2 className="text-info mb-3">About Me</h2>
