@@ -14,8 +14,7 @@ function Homepage() {
   const blogData = [
     {
       title: "Week 1 NET102 & IAS101",
-      content: `The first week of classes was a lot of learnings for me we have learned about Physical
-        Network Designs like Core, Distribution, and Access Layers. We have understand the different classes of IP Addresses such as Class A, Class B, and Class C and when to use them or implement them depending on the needs of users we also tackled about VLANS and different types of VLANS.
+      content: `The first week of classes was a lot of learnings for me we have learned about Physical Network Designs like Core, Distribution, and Access Layers. We have understand the different classes of IP Addresses such as Class A, Class B, and Class C and when to use them or implement them depending on the needs of users we also tackled about VLANS and different types of VLANS.
         We also discussed about supernetting/subnettings and how many users can be handled in each subnets. 
         Also we discussed about The History of Information Security just to give us a brief introduction for the
         subject and learned about the enigma machine used by the germans back then ciphering their communications. Base on the introduction of the subjects I pretty much want to learn more about computer networks and security.
