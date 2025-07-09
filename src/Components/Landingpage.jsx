@@ -83,7 +83,19 @@ function Landingpage() {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-md-5 text-center mb-4 mb-md-0">
-                            <i className="fas fa-user-circle about-icon text-info"></i>
+                            <img
+                                src="/profile.jfif"
+                                alt="Profile"
+                                className="bg-info"
+                                style={{
+                                    width: "300px",
+                                    height: "300px",
+                                    objectFit: "contain",
+                                    borderRadius: "50%",
+                                    padding: "10px",
+                                    boxShadow: "0 4px 12px rgba(0, 0, 0, 0.3)",
+                                }}
+                            />
                         </div>
                         <div className="col-md-7">
                             <h2 className="text-info mb-3">About Me</h2>

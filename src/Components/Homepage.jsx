@@ -14,11 +14,15 @@ function Homepage() {
   const blogData = [
     {
       title: "Week 1 NET102 & IAS101",
-      content: `The first week of classes was a lot of learnings for me we have learned about Physical Network Designs like Core, Distribution, and Access Layers. We have understand the different classes of IP Addresses such as Class A, Class B, and Class C and when to use them or implement them depending on the needs of users we also tackled about VLANS and different types of VLANS.
-        We also discussed about supernetting/subnettings and how many users can be handled in each subnets. 
-        Also we discussed about The History of Information Security just to give us a brief introduction for the
-        subject and learned about the enigma machine used by the germans back then ciphering their communications. Base on the introduction of the subjects I pretty much want to learn more about computer networks and security.
-        And I also hope that we will survive this school year from projects to exams and activities hopefully everything goes well.`,
+      content: `The first week of classes was full of learning for me. We learned about Physical Network Designs, such as the Core, Distribution, and Access Layers.
+
+  We also understood the different classes of IP addresses—Class A, Class B, and Class C—and when to use them depending on user needs. Additionally, we discussed VLANs and the different types of VLANs.
+
+  Subnetting and supernetting were covered as well, including how many users can be handled within each subnet.
+
+  In IAS101, we explored the history of Information Security as an introduction to the subject. We even learned about the Enigma machine used by the Germans during the war to cipher their communications.
+
+  Based on these introductions, I’m excited to learn more about computer networks and security. I also hope we survive this school year—from projects to exams and activities—hopefully, everything goes well.`,
       date: "04/07/25",
     }
   ];
@@ -66,16 +70,36 @@ function Homepage() {
       {blogData.map((blog, index) => (
         <div
           key={index}
-          className="card mb-4 bg-dark text-white border-info blog-card-hover"
-          style={{ cursor: 'pointer' }}
+          className="card mb-4 bg-dark text-white blog-card-hover"
+          style={{
+            cursor: 'pointer',
+            boxShadow: '0 4px 8px rgba(0, 0, 0, 0.3)',
+            border: 'none',
+            transition: 'transform 0.2s',
+          }}
           onClick={() => handleOpenModal(blog)}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
           <div className="card-body">
-            <h5 className="card-title text-info"> <i className="fas fa-file-alt me-2"></i>{blog.title}</h5>
+            <h5 className="card-title text-info">
+              <i className="fas fa-file-alt me-2"></i>{blog.title}
+            </h5>
             <p className="text-secondary" style={{ fontSize: '0.9rem' }}>
               <i className="far fa-calendar-alt me-2"></i>{blog.date}
             </p>
             <p className="card-text text-truncate">{blog.content}</p>
+            <div className="d-flex justify-content-end mt-3">
+              <button
+                className="btn btn-outline-info btn-md"
+                onClick={(e) => {
+                  e.stopPropagation(); // Prevents modal trigger when button is clicked
+                  handleOpenModal(blog);
+                }}
+              >
+                Read Blog
+              </button>
+            </div>
           </div>
         </div>
       ))}
