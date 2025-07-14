@@ -24,6 +24,21 @@ function Homepage() {
 
   Based on these introductions, I’m excited to learn more about computer networks and security. I also hope we survive this school year—from projects to exams and activities—hopefully, everything goes well.`,
       date: "04/07/25",
+    },
+    {
+      title: "Week 2 NET102 & IAS101",
+      content: `This week in NET102 and IAS101 was both challenging and insightful. In NET102, we focused on configuring VLANs (Virtual Local Area Networks) — a concept that initially seemed complex, but gradually became more understandable through hands-on practice and discussions. Learning how to segment networks using VLANs opened my eyes to how essential proper network configuration is in real-world IT environments. It’s not just about connecting devices anymore — it’s about organizing them logically to improve security, performance, and manageability.
+
+One of the highlights of this topic was seeing how VLANs help reduce broadcast traffic and enhance security within a network. It made me realize that even a small configuration decision can have a huge impact on how safe and efficient a network can be. Setting up VLANs gave me a deeper appreciation for the role of a network administrator and the critical thinking required to properly design a network infrastructure.
+
+In IAS101, we explored two important approaches to protecting software systems: the Bottom-Up and Top-Down approaches. The Bottom-Up approach emphasizes building security from the smallest components—like software modules or hardware systems—and working upwards. This method helps in making sure that each element of the system is secure by itself.
+
+On the other hand, the Top-Down approach focuses more on organizational policies, strategies, and risk assessments. It made me think about how leadership, planning, and clear security objectives from the top can guide the entire development and security process. I learned that both approaches are not mutually exclusive — in fact, they complement each other. A good organization uses both: building secure components while also having a clear strategy and management framework.
+
+This week taught me that technical skills and strategic thinking go hand in hand in the world of IT. Whether it’s configuring VLANs or designing secure systems, it’s all about understanding the bigger picture while also paying attention to the smallest details.
+
+Looking forward to more hands-on practice and learning how these concepts play a role in real-world scenarios.`,
+      date: "14/07/2025"
     }
   ];
 
