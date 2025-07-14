@@ -27,17 +27,19 @@ function Homepage() {
     },
     {
       title: "Week 2 NET102 & IAS101",
-      content: `This week in NET102 and IAS101 was both challenging and insightful. In NET102, we focused on configuring VLANs (Virtual Local Area Networks) — a concept that initially seemed complex, but gradually became more understandable through hands-on practice and discussions. Learning how to segment networks using VLANs opened my eyes to how essential proper network configuration is in real-world IT environments. It’s not just about connecting devices anymore — it’s about organizing them logically to improve security, performance, and manageability.
+      content: `During the second week of NET102, we started learning how to configure VLANs. It was my first time trying to set up ports and assign IP addresses, and I honestly found it quite challenging. At first, I was confused about which ports to assign and how the IP addresses should be arranged properly. It took me some time to understand how everything connects, but step by step, I started to get the idea.
 
-One of the highlights of this topic was seeing how VLANs help reduce broadcast traffic and enhance security within a network. It made me realize that even a small configuration decision can have a huge impact on how safe and efficient a network can be. Setting up VLANs gave me a deeper appreciation for the role of a network administrator and the critical thinking required to properly design a network infrastructure.
+Even though I struggled, I realized that configuring VLANs is really important for organizing and securing a network. It's not just plugging in cables — there’s logic behind how devices are grouped and how they communicate.
 
-In IAS101, we explored two important approaches to protecting software systems: the Bottom-Up and Top-Down approaches. The Bottom-Up approach emphasizes building security from the smallest components—like software modules or hardware systems—and working upwards. This method helps in making sure that each element of the system is secure by itself.
+In IAS101, we discussed the Top-Down and Bottom-Up approaches in protecting software systems. What I understood is that:
 
-On the other hand, the Top-Down approach focuses more on organizational policies, strategies, and risk assessments. It made me think about how leadership, planning, and clear security objectives from the top can guide the entire development and security process. I learned that both approaches are not mutually exclusive — in fact, they complement each other. A good organization uses both: building secure components while also having a clear strategy and management framework.
+The Top-Down approach starts from the management or organization level. It focuses on planning, creating policies, and setting rules for how systems should be protected.
 
-This week taught me that technical skills and strategic thinking go hand in hand in the world of IT. Whether it’s configuring VLANs or designing secure systems, it’s all about understanding the bigger picture while also paying attention to the smallest details.
+The Bottom-Up approach, on the other hand, starts from the technical side — like developers or IT staff working on specific parts of the system to keep it secure.
 
-Looking forward to more hands-on practice and learning how these concepts play a role in real-world scenarios.`,
+These two approaches helped me see that security isn't just about technology — it's also about how an organization thinks and plans.
+
+Overall, this week was a bit difficult for me, but I know that struggling is part of learning. I'm slowly building my understanding, and I look forward to improving more in the next lessons.`,
       date: "14/07/2025"
     }
   ];
