@@ -23,7 +23,7 @@ function Homepage() {
   In IAS101, we explored the history of Information Security as an introduction to the subject. We even learned about the Enigma machine used by the Germans during the war to cipher their communications.
 
   Based on these introductions, I’m excited to learn more about computer networks and security. I also hope we survive this school year—from projects to exams and activities—hopefully, everything goes well.`,
-      date: "04/07/25",
+      date: "04/07/2025",
     },
     {
       title: "Week 2 NET102 & IAS101",
@@ -41,6 +41,15 @@ These two approaches helped me see that security isn't just about technology —
 
 Overall, this week was a bit difficult for me, but I know that struggling is part of learning. I'm slowly building my understanding, and I look forward to improving more in the next lessons.`,
       date: "14/07/2025"
+    },
+    {
+      title: "Week 3 NET102 & IAS101",
+      content: `This week in NET102, we focused on configuring VLANs—and to be honest, it was a struggle at first. I found it confusing trying to understand how devices are grouped and how the configuration actually works. I kept messing up the commands and second-guessing if I was doing things right. But after a lot of trial and error, and asking for help, I slowly started to get the hang of it. It’s not easy, but it feels rewarding when you finally see it work the way it should.
+
+In IAS101, we talked about the need for security, which really made me think. We learned about software attacks and how both hardware and software can fail unexpectedly. It was a bit overwhelming hearing about all the ways systems can break or be attacked, but at the same time, it made me realize how important cybersecurity really is. It’s not just about having a strong password—it’s about being prepared for all kinds of threats.
+
+Overall, this week wasn’t easy, but it was full of learning. Even if VLANs gave me a hard time, I know it’s part of the process. Both subjects are teaching me how to not just set things up, but also how to protect and maintain them—and that’s something I really need as a future IT professional.`,
+      date: "19/07/2025"
     }
   ];
 
