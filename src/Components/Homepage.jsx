@@ -50,6 +50,15 @@ In IAS101, we talked about the need for security, which really made me think. We
 
 Overall, this week wasn’t easy, but it was full of learning. Even if VLANs gave me a hard time, I know it’s part of the process. Both subjects are teaching me how to not just set things up, but also how to protect and maintain them—and that’s something I really need as a future IT professional.`,
       date: "19/07/2025"
+    },
+    {
+      title: "Week 4 NET102 & IAS101",
+      content: `This week in NET102, we focused on learning about routers, IP addresses, routing tables, and the difference between logical and physical addresses. At first, the terms were kind of confusing, but as we went through the discussions and examples, I started to understand how devices communicate in a network. What stood out to me the most was learning how the gateway address works—it’s basically the door for a device to reach other networks. I also found the topic of IPv4 structure really interesting, especially when we started discussing binary basics and how each IP address is formed. It made me realize how important even the smallest detail is when it comes to networking.
+
+In IAS, we had a quiz about "The Need for Security", and it honestly opened my eyes more to how vulnerable our data can be. The quiz made me review things like why security is important, the possible threats in systems, and what can happen if we take it lightly. It made me more conscious about online habits like reusing passwords or clicking unknown links. Even though it was just a quiz, it reminded me that cybersecurity is not just a topic we study—it’s something we need to practice in real life too.
+
+Overall, this week was really informative for both subjects. I feel like I’m slowly building a stronger foundation in networking and becoming more aware of the role of security in IT. Even though some parts were a bit challenging, I enjoyed the process of learning and connecting the concepts to real-world situations.`,
+      date: "26/07/25"
     }
   ];
 
@@ -70,14 +79,16 @@ Overall, this week wasn’t easy, but it was full of learning. Even if VLANs gav
     <div
       className="homepage-wrapper d-flex flex-column"
       style={{
-        backgroundColor: '#121212',
-        color: 'white',
-        minHeight: '100vh',
-        width: '100vw',
-        padding: '2rem',
-        position: 'relative',
-        zIndex: 1,
+          backgroundColor: '#121212',
+          color: 'white',
+          minHeight: '100vh',
+          width: '100%', 
+          padding: '2rem',
+          position: 'relative',
+          zIndex: 1,
+          overflowX: 'hidden',
       }}
+
     >
       <div className="background-icons">
         <i className="fas fa-network-wired icon network"></i>
