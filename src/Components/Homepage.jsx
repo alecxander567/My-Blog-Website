@@ -62,11 +62,11 @@ Overall, this week was really informative for both subjects. I feel like I’m s
     },
     {
       title: "Week 5 NET102 & IAS101",
-      content: `Last week, we covered two important topics that helped me see both the technical and ethical sides of being in the IT field. In NET102, we learned about subnetting, which taught me how to divide networks into smaller parts to improve efficiency, security, and organization. At first, it felt confusing because of the binary numbers and CIDR notations, but with practice, I started to appreciate how subnetting is used in real-world networks. It made me realize how important planning is when managing IP addresses and designing networks.
+      content: `Last week, we learned about Subnetting in NET102. We tackled how to solve IP addresses and understand how subnetting works. We learned how to get the total number of hosts in a network depending on the class of an IP address. We also understood that subnetting is the process of dividing a large network into smaller networks called subnets, which helps organize and manage networks more efficiently.
 
-In IAS101, we tackled the legal, ethical, and professional issues in information security. This topic reminded me that being an IT professional is not just about knowing the technical side, but also about acting responsibly. I learned how important it is to protect user data, respect privacy, and follow laws like the Data Privacy Act. It also made me reflect on the importance of honesty, integrity, and accountability in our work.
+For IAS101, we understood more about the legal issues and laws in information security. We discussed common problems the world faces when it comes to information security and how different countries deal with internet security. We also talked about what is legally allowed and what is illegal when using software. Discussing these kinds of topics helps make us more aware of legal concerns, so we can avoid unknowingly doing anything illegal online.
 
-These two topics together reminded me that being in the IT field means having both the skills to solve technical problems and the wisdom to use those skills responsibly. As I continue learning, I want to grow in both areas — becoming more confident with the technical side like subnetting, while also developing a strong sense of ethics and professionalism.`,
+Both topics were challenging to learn, but we are eager to understand more. As an IT student, it’s important to have at least a basic understanding of the legal and illegal use of software, as well as what subnetting is in networking.`,
       date: "06/08/25"
     }
   ];
