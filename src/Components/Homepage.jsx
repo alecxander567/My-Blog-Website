@@ -59,6 +59,15 @@ In IAS, we had a quiz about "The Need for Security", and it honestly opened my e
 
 Overall, this week was really informative for both subjects. I feel like I’m slowly building a stronger foundation in networking and becoming more aware of the role of security in IT. Even though some parts were a bit challenging, I enjoyed the process of learning and connecting the concepts to real-world situations.`,
       date: "26/07/25"
+    },
+    {
+      title: "Week 5 NET102 & IAS101",
+      content: `Last week, we covered two important topics that helped me see both the technical and ethical sides of being in the IT field. In NET102, we learned about subnetting, which taught me how to divide networks into smaller parts to improve efficiency, security, and organization. At first, it felt confusing because of the binary numbers and CIDR notations, but with practice, I started to appreciate how subnetting is used in real-world networks. It made me realize how important planning is when managing IP addresses and designing networks.
+
+In IAS101, we tackled the legal, ethical, and professional issues in information security. This topic reminded me that being an IT professional is not just about knowing the technical side, but also about acting responsibly. I learned how important it is to protect user data, respect privacy, and follow laws like the Data Privacy Act. It also made me reflect on the importance of honesty, integrity, and accountability in our work.
+
+These two topics together reminded me that being in the IT field means having both the skills to solve technical problems and the wisdom to use those skills responsibly. As I continue learning, I want to grow in both areas — becoming more confident with the technical side like subnetting, while also developing a strong sense of ethics and professionalism.`,
+      date: "06/08/25"
     }
   ];
 
