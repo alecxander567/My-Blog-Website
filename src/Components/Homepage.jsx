@@ -68,6 +68,14 @@ For IAS101, we understood more about the legal issues and laws in information se
 
 Both topics were challenging to learn, but we are eager to understand more. As an IT student, it’s important to have at least a basic understanding of the legal and illegal use of software, as well as what subnetting is in networking.`,
       date: "06/08/25"
+    },
+    {
+      title : "Week 6 NET102 & IAS101",
+      content : `This week it was filled with events only but I took the time to study for the exams and quizzes, I have learned some few things. I will continue to improve and study to get better at NET102 as well I have struggles learning on it.
+      
+      For the IAS101 we tackled a lot about the laws and commandments in Information Security I have learned that we should be cautious in our every action in the digital world also I have learned that laws are also made for the users not just for the hackers or attackers.
+      
+      Overall, the learning all throughout this week is still fulfilling and I hope that I can have more things to learn in the future.`
     }
   ];
 
