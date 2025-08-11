@@ -58,7 +58,7 @@ Overall, this week wasn’t easy, but it was full of learning. Even if VLANs gav
 In IAS, we had a quiz about "The Need for Security", and it honestly opened my eyes more to how vulnerable our data can be. The quiz made me review things like why security is important, the possible threats in systems, and what can happen if we take it lightly. It made me more conscious about online habits like reusing passwords or clicking unknown links. Even though it was just a quiz, it reminded me that cybersecurity is not just a topic we study—it’s something we need to practice in real life too.
 
 Overall, this week was really informative for both subjects. I feel like I’m slowly building a stronger foundation in networking and becoming more aware of the role of security in IT. Even though some parts were a bit challenging, I enjoyed the process of learning and connecting the concepts to real-world situations.`,
-      date: "26/07/25"
+      date: "26/07/2025"
     },
     {
       title: "Week 5 NET102 & IAS101",
@@ -67,7 +67,7 @@ Overall, this week was really informative for both subjects. I feel like I’m s
 For IAS101, we understood more about the legal issues and laws in information security. We discussed common problems the world faces when it comes to information security and how different countries deal with internet security. We also talked about what is legally allowed and what is illegal when using software. Discussing these kinds of topics helps make us more aware of legal concerns, so we can avoid unknowingly doing anything illegal online.
 
 Both topics were challenging to learn, but we are eager to understand more. As an IT student, it’s important to have at least a basic understanding of the legal and illegal use of software, as well as what subnetting is in networking.`,
-      date: "06/08/25"
+      date: "06/08/2025"
     },
     {
       title : "Week 6 NET102 & IAS101",
@@ -75,7 +75,8 @@ Both topics were challenging to learn, but we are eager to understand more. As a
       
       For the IAS101 we tackled a lot about the laws and commandments in Information Security I have learned that we should be cautious in our every action in the digital world also I have learned that laws are also made for the users not just for the hackers or attackers.
       
-      Overall, the learning all throughout this week is still fulfilling and I hope that I can have more things to learn in the future.`
+      Overall, the learning all throughout this week is still fulfilling and I hope that I can have more things to learn in the future.`,
+      date : "11/08/2025"
     }
   ];
 
