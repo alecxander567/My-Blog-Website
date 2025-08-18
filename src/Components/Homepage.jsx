@@ -77,6 +77,15 @@ Both topics were challenging to learn, but we are eager to understand more. As a
       
       Overall, the learning all throughout this week is still fulfilling and I hope that I can have more things to learn in the future.`,
       date : "11/08/2025"
+    },
+    {
+      title: "Week 7 NET102 & IAS101",
+      content: `Last week on NET102 we had disucssions about OSI model in networking basically how the data travels in the internet all the way to your pc. I have learned about its 7 layers the physical layer, data link layer, network layer, transport layer, session layer, presentation layer, and the application layer.
+      
+      For the IAS101 we continued the topic about ethics and laws in information security and we had a quiz as well. I took the time to study about the laws and ethics and how to apply them in real-life. It was an informative topic to be aware when using a computer and accessing any website and to avoid phishing in the internet as well.
+      
+      Overall this week has a lot of interesting topics to learn very broad and very valueble for both skills and theories. This will help a lot in he future real-life where I can apply this things that I have learned.`,
+      date: "18/08/2025"
     }
   ];
 
