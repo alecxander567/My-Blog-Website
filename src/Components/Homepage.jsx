@@ -86,6 +86,15 @@ Both topics were challenging to learn, but we are eager to understand more. As a
       
       Overall this week has a lot of interesting topics to learn very broad and very valueble for both skills and theories. This will help a lot in he future real-life where I can apply this things that I have learned.`,
       date: "18/08/2025"
+    },
+    {
+      title: "Week 8 NET102 & IAS101",
+      content: `Last week in NET102 we tackled the topics of BGP, OSPF, and RIP setups in networking. These are all routing protocols that play different roles depending on the type and size of the network. RIP is the simplest one and usually works best for small area networks because it’s easier to configure but limited in scale. OSPF on the other hand is designed for bigger networks, it’s more efficient and handles large areas better. Then we have BGP, which is used for inter-network communication, like how the internet connects multiple networks together. All of these protocols are configured using specific commands and proper setups so that they can distribute routes and make sure data finds the best possible path across the network.
+      
+      For IAS, we had some topics and also reportings from our classmates about Information Security and planning. The discussion mainly focused on how important it is for organizations to have proper policies and standards in place. These policies act as guidelines to protect data, systems, and the overall security of the company. Another key point was the importance of training employees, since even with strong security policies, human error can still be the weakest link. By teaching employees the best practices, like recognizing phishing attempts or handling sensitive information properly, organizations can strengthen their overall security posture.
+      
+      Once again, it was a week full of learnings, and I really appreciate how each subject gives me both technical and theoretical knowledge. Every topic we cover adds another layer of understanding, whether it’s configuring networks, learning about security, or exploring how systems are managed. It makes me look forward to the upcoming weeks, hoping for even more insightful and valuable lessons that can help me grow not just as a student, but also in preparing myself for the IT field.`,
+      date: "25/08/2025"
     }
   ];
 
