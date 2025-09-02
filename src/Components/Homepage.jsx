@@ -103,7 +103,7 @@ Both topics were challenging to learn, but we are eager to understand more. As a
       For IAS101 I just studied the last reporting about Information Security and Planning. I reviewed the key points discussed in class to ensure I understood the importance of having proper security policies and training employees to follow best practices. I also looked into some real-life examples of security breaches to see how lack of planning can lead to vulnerabilities.
       
       Overall, it was a week focused on preparation and review. I want to make sure I'm ready for the hands-on activities in NET102 and that I have a solid understanding of the concepts in IAS101. I'm looking forward to applying what I've learned in practical scenarios next week.`,
-      date : "01/09/2025"
+      date : "02/09/2025"
     }
   ];
 
