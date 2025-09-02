@@ -95,6 +95,15 @@ Both topics were challenging to learn, but we are eager to understand more. As a
       
       Once again, it was a week full of learnings, and I really appreciate how each subject gives me both technical and theoretical knowledge. Every topic we cover adds another layer of understanding, whether it’s configuring networks, learning about security, or exploring how systems are managed. It makes me look forward to the upcoming weeks, hoping for even more insightful and valuable lessons that can help me grow not just as a student, but also in preparing myself for the IT field.`,
       date: "25/08/2025"
+    },
+    {
+      title : "Week 9 NET102 & IAS101",
+      content : `This week on NET102 it was all about preparing for next week's activity which will be a hands on configuration. I took the time to review the topics we had discussed in the previous weeks to make sure I understand how these routing protocols work and how to set them up properly. I also practiced some commands on Packet Tracer to get more familiar with the configurations.
+      
+      For IAS101 I just studied the last reporting about Information Security and Planning. I reviewed the key points discussed in class to ensure I understood the importance of having proper security policies and training employees to follow best practices. I also looked into some real-life examples of security breaches to see how lack of planning can lead to vulnerabilities.
+      
+      Overall, it was a week focused on preparation and review. I want to make sure I'm ready for the hands-on activities in NET102 and that I have a solid understanding of the concepts in IAS101. I'm looking forward to applying what I've learned in practical scenarios next week.`,
+      date : "01/09/2025"
     }
   ];
 
