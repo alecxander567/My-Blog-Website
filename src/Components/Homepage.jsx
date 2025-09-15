@@ -1,16 +1,15 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import React, { useState } from 'react';
-import 'bootstrap-icons/font/bootstrap-icons.css';
-import '../css/Homepage.css';
-import '@fortawesome/fontawesome-free/css/all.min.css';
-import { useNavigate } from 'react-router-dom';
+import "bootstrap/dist/css/bootstrap.min.css";
+import React, { useState } from "react";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import "../css/Homepage.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import { useNavigate } from "react-router-dom";
 
 function Homepage() {
   const navigate = useNavigate();
 
-  const goToLandingPage = () => navigate('/');
+  const goToLandingPage = () => navigate("/");
 
-  // Blog data
   const blogData = [
     {
       title: "Week 1 NET102 & IAS101",
@@ -40,7 +39,7 @@ The Bottom-Up approach, on the other hand, starts from the technical side — li
 These two approaches helped me see that security isn't just about technology — it's also about how an organization thinks and plans.
 
 Overall, this week was a bit difficult for me, but I know that struggling is part of learning. I'm slowly building my understanding, and I look forward to improving more in the next lessons.`,
-      date: "14/07/2025"
+      date: "14/07/2025",
     },
     {
       title: "Week 3 NET102 & IAS101",
@@ -49,7 +48,7 @@ Overall, this week was a bit difficult for me, but I know that struggling is par
 In IAS101, we talked about the need for security, which really made me think. We learned about software attacks and how both hardware and software can fail unexpectedly. It was a bit overwhelming hearing about all the ways systems can break or be attacked, but at the same time, it made me realize how important cybersecurity really is. It’s not just about having a strong password—it’s about being prepared for all kinds of threats.
 
 Overall, this week wasn’t easy, but it was full of learning. Even if VLANs gave me a hard time, I know it’s part of the process. Both subjects are teaching me how to not just set things up, but also how to protect and maintain them—and that’s something I really need as a future IT professional.`,
-      date: "19/07/2025"
+      date: "19/07/2025",
     },
     {
       title: "Week 4 NET102 & IAS101",
@@ -58,7 +57,7 @@ Overall, this week wasn’t easy, but it was full of learning. Even if VLANs gav
 In IAS, we had a quiz about "The Need for Security", and it honestly opened my eyes more to how vulnerable our data can be. The quiz made me review things like why security is important, the possible threats in systems, and what can happen if we take it lightly. It made me more conscious about online habits like reusing passwords or clicking unknown links. Even though it was just a quiz, it reminded me that cybersecurity is not just a topic we study—it’s something we need to practice in real life too.
 
 Overall, this week was really informative for both subjects. I feel like I’m slowly building a stronger foundation in networking and becoming more aware of the role of security in IT. Even though some parts were a bit challenging, I enjoyed the process of learning and connecting the concepts to real-world situations.`,
-      date: "26/07/2025"
+      date: "26/07/2025",
     },
     {
       title: "Week 5 NET102 & IAS101",
@@ -67,16 +66,16 @@ Overall, this week was really informative for both subjects. I feel like I’m s
 For IAS101, we understood more about the legal issues and laws in information security. We discussed common problems the world faces when it comes to information security and how different countries deal with internet security. We also talked about what is legally allowed and what is illegal when using software. Discussing these kinds of topics helps make us more aware of legal concerns, so we can avoid unknowingly doing anything illegal online.
 
 Both topics were challenging to learn, but we are eager to understand more. As an IT student, it’s important to have at least a basic understanding of the legal and illegal use of software, as well as what subnetting is in networking.`,
-      date: "06/08/2025"
+      date: "06/08/2025",
     },
     {
-      title : "Week 6 NET102 & IAS101",
-      content : `This week it was filled with events only but I took the time to study for the exams and quizzes, I have learned some few things. I will continue to improve and study to get better at NET102 as well I have struggles learning on it.
+      title: "Week 6 NET102 & IAS101",
+      content: `This week it was filled with events only but I took the time to study for the exams and quizzes, I have learned some few things. I will continue to improve and study to get better at NET102 as well I have struggles learning on it.
       
       For the IAS101 we tackled a lot about the laws and commandments in Information Security I have learned that we should be cautious in our every action in the digital world also I have learned that laws are also made for the users not just for the hackers or attackers.
       
       Overall, the learning all throughout this week is still fulfilling and I hope that I can have more things to learn in the future.`,
-      date : "11/08/2025"
+      date: "11/08/2025",
     },
     {
       title: "Week 7 NET102 & IAS101",
@@ -85,7 +84,7 @@ Both topics were challenging to learn, but we are eager to understand more. As a
       For the IAS101 we continued the topic about ethics and laws in information security and we had a quiz as well. I took the time to study about the laws and ethics and how to apply them in real-life. It was an informative topic to be aware when using a computer and accessing any website and to avoid phishing in the internet as well.
       
       Overall this week has a lot of interesting topics to learn very broad and very valueble for both skills and theories. This will help a lot in he future real-life where I can apply this things that I have learned.`,
-      date: "18/08/2025"
+      date: "18/08/2025",
     },
     {
       title: "Week 8 NET102 & IAS101",
@@ -94,17 +93,26 @@ Both topics were challenging to learn, but we are eager to understand more. As a
       For IAS, we had some topics and also reportings from our classmates about Information Security and planning. The discussion mainly focused on how important it is for organizations to have proper policies and standards in place. These policies act as guidelines to protect data, systems, and the overall security of the company. Another key point was the importance of training employees, since even with strong security policies, human error can still be the weakest link. By teaching employees the best practices, like recognizing phishing attempts or handling sensitive information properly, organizations can strengthen their overall security posture.
       
       Once again, it was a week full of learnings, and I really appreciate how each subject gives me both technical and theoretical knowledge. Every topic we cover adds another layer of understanding, whether it’s configuring networks, learning about security, or exploring how systems are managed. It makes me look forward to the upcoming weeks, hoping for even more insightful and valuable lessons that can help me grow not just as a student, but also in preparing myself for the IT field.`,
-      date: "25/08/2025"
+      date: "25/08/2025",
     },
     {
-      title : "Week 9 NET102 & IAS101",
-      content : `This week on NET102 it was all about preparing for next week's activity which will be a hands on configuration. I took the time to review the topics we had discussed in the previous weeks to make sure I understand how these routing protocols work and how to set them up properly. I also practiced some commands on Packet Tracer to get more familiar with the configurations.
+      title: "Week 9 NET102 & IAS101",
+      content: `This week on NET102 it was all about preparing for next week's activity which will be a hands on configuration. I took the time to review the topics we had discussed in the previous weeks to make sure I understand how these routing protocols work and how to set them up properly. I also practiced some commands on Packet Tracer to get more familiar with the configurations.
       
       For IAS101 I just studied the last reporting about Information Security and Planning. I reviewed the key points discussed in class to ensure I understood the importance of having proper security policies and training employees to follow best practices. I also looked into some real-life examples of security breaches to see how lack of planning can lead to vulnerabilities.
       
       Overall, it was a week focused on preparation and review. I want to make sure I'm ready for the hands-on activities in NET102 and that I have a solid understanding of the concepts in IAS101. I'm looking forward to applying what I've learned in practical scenarios next week.`,
-      date : "02/09/2025"
-    }
+      date: "02/09/2025",
+    },
+    {
+      title: "Week 10 NET102 & IAS101",
+      content: `This week we had a configuration activity in NET102 where we had a hands-on configuration of routers using TP-Link routers. It was a bit challenging I made the set-up but  I wasn't able make the last part work. I think I missed something in the configuration. But overall, it was a great experience to actually set up the routers and see how they work in a real network environment.
+      
+      For IAS101, we only had reporting about Information Security and Planning. I took the time to review the key points discussed in class and made sure I understood the importance of having proper security policies and training employees to follow best practices. It was a good opportunity to reflect on how these concepts apply in real-world scenarios.
+      
+      Overall, it was a week full of learning and practical experience. I’m looking forward to improving my skills in NET102 and gaining more insights in IAS101 in the coming weeks.`,
+      date: "09/15/2025",
+    },
   ];
 
   const [selectedBlog, setSelectedBlog] = useState(null);
@@ -124,16 +132,15 @@ Both topics were challenging to learn, but we are eager to understand more. As a
     <div
       className="homepage-wrapper d-flex flex-column"
       style={{
-          backgroundColor: '#121212',
-          color: 'white',
-          minHeight: '100vh',
-          width: '100%', 
-          padding: '2rem',
-          position: 'relative',
-          zIndex: 1,
-          overflowX: 'hidden',
+        backgroundColor: "#121212",
+        color: "white",
+        minHeight: "100vh",
+        width: "100%",
+        padding: "2rem",
+        position: "relative",
+        zIndex: 1,
+        overflowX: "hidden",
       }}
-
     >
       <div className="background-icons">
         <i className="fas fa-network-wired icon network"></i>
@@ -154,21 +161,25 @@ Both topics were challenging to learn, but we are eager to understand more. As a
           key={index}
           className="card mb-4 bg-dark text-white blog-card-hover"
           style={{
-            cursor: 'pointer',
-            boxShadow: '0 4px 8px rgba(0, 0, 0, 0.3)',
-            border: 'none',
-            transition: 'transform 0.2s',
+            cursor: "pointer",
+            boxShadow: "0 4px 8px rgba(0, 0, 0, 0.3)",
+            border: "none",
+            transition: "transform 0.2s",
           }}
           onClick={() => handleOpenModal(blog)}
-          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
-          onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
+          onMouseEnter={(e) =>
+            (e.currentTarget.style.transform = "scale(1.02)")
+          }
+          onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
         >
           <div className="card-body">
             <h5 className="card-title text-info">
-              <i className="fas fa-file-alt me-2"></i>{blog.title}
+              <i className="fas fa-file-alt me-2"></i>
+              {blog.title}
             </h5>
-            <p className="text-secondary" style={{ fontSize: '0.9rem' }}>
-              <i className="far fa-calendar-alt me-2"></i>{blog.date}
+            <p className="text-secondary" style={{ fontSize: "0.9rem" }}>
+              <i className="far fa-calendar-alt me-2"></i>
+              {blog.date}
             </p>
             <p className="card-text text-truncate">{blog.content}</p>
             <div className="d-flex justify-content-end mt-3">
@@ -189,7 +200,7 @@ Both topics were challenging to learn, but we are eager to understand more. As a
         <div
           className="modal fade show"
           tabIndex="-1"
-          style={{ display: 'block', backgroundColor: 'rgba(0,0,0,0.8)' }}
+          style={{ display: "block", backgroundColor: "rgba(0,0,0,0.8)" }}
           onClick={handleCloseModal}
         >
           <div
@@ -198,17 +209,29 @@ Both topics were challenging to learn, but we are eager to understand more. As a
           >
             <div className="modal-content bg-dark text-white border-info">
               <div className="modal-header">
-                <h5 className="modal-title text-info"> <i className="fas fa-file-alt me-2"></i>{selectedBlog.title}</h5>
-                <button type="button" className="btn-close btn-close-white" onClick={handleCloseModal}></button>
+                <h5 className="modal-title text-info">
+                  {" "}
+                  <i className="fas fa-file-alt me-2"></i>
+                  {selectedBlog.title}
+                </h5>
+                <button
+                  type="button"
+                  className="btn-close btn-close-white"
+                  onClick={handleCloseModal}
+                ></button>
               </div>
               <div className="modal-body">
-                <p className="text-secondary" style={{ fontSize: '0.9rem' }}>
-                  <i className="far fa-calendar-alt me-2"></i>{selectedBlog.date}
+                <p className="text-secondary" style={{ fontSize: "0.9rem" }}>
+                  <i className="far fa-calendar-alt me-2"></i>
+                  {selectedBlog.date}
                 </p>
-                <p style={{ whiteSpace: 'pre-line' }}>{selectedBlog.content}</p>
+                <p style={{ whiteSpace: "pre-line" }}>{selectedBlog.content}</p>
               </div>
               <div className="modal-footer">
-                <button className="btn btn-outline-info" onClick={handleCloseModal}>
+                <button
+                  className="btn btn-outline-info"
+                  onClick={handleCloseModal}
+                >
                   Close
                 </button>
               </div>
