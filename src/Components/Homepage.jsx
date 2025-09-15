@@ -117,6 +117,8 @@ Both topics were challenging to learn, but we are eager to understand more. As a
 
   const [selectedBlog, setSelectedBlog] = useState(null);
   const [showModal, setShowModal] = useState(false);
+  const [selectedWeek, setSelectedWeek] = useState("All");
+  const [filteredBlogs, setFilteredBlogs] = useState(blogData);
 
   const handleOpenModal = (blog) => {
     setSelectedBlog(blog);
@@ -126,6 +128,18 @@ Both topics were challenging to learn, but we are eager to understand more. As a
   const handleCloseModal = () => {
     setShowModal(false);
     setSelectedBlog(null);
+  };
+
+  const handleWeekChange = (week) => {
+    setSelectedWeek(week);
+
+    if (week === "All") {
+      setFilteredBlogs(blogData); // Show all blogs
+    } else {
+      setFilteredBlogs(
+        blogData.filter((blog) => blog.title.includes(week)) // Match "Week X"
+      );
+    }
   };
 
   return (
@@ -148,7 +162,7 @@ Both topics were challenging to learn, but we are eager to understand more. As a
         <i className="fas fa-lock icon lock"></i>
         <i className="fas fa-server icon server"></i>
       </div>
-      <div className="d-flex justify-content-between align-items-center mb-4">
+      <div className="d-flex justify-content-between align-items-center mb-3">
         <h2 className="text-info m-0">
           <i className="fas fa-blog"></i> My Blogs
         </h2>
@@ -156,7 +170,29 @@ Both topics were challenging to learn, but we are eager to understand more. As a
           <i className="fas fa-arrow-left me-2"></i> Back
         </button>
       </div>
-      {blogData.map((blog, index) => (
+
+      <div className="mb-4 mt-2">
+        <select
+          className="btn btn-outline-info text-white bg-dark py-2"
+          style={{ width: "170px" }}
+          value={selectedWeek}
+          onChange={(e) => handleWeekChange(e.target.value)}
+        >
+          <option value="All">All Weeks</option>
+          <option value="Week 1">Week 1</option>
+          <option value="Week 2">Week 2</option>
+          <option value="Week 3">Week 3</option>
+          <option value="Week 4">Week 4</option>
+          <option value="Week 5">Week 5</option>
+          <option value="Week 6">Week 6</option>
+          <option value="Week 7">Week 7</option>
+          <option value="Week 8">Week 8</option>
+          <option value="Week 9">Week 9</option>
+          <option value="Week 10">Week 10</option>
+        </select>
+      </div>
+
+      {filteredBlogs.map((blog, index) => (
         <div
           key={index}
           className="card mb-4 bg-dark text-white blog-card-hover"
