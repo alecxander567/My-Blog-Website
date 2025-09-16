@@ -115,7 +115,7 @@ Both topics were challenging to learn, but we are eager to understand more. As a
     },
     {
       title: "Week 11 NET102 & IAS101",
-      content: `This week we only focus on reviewing for the upcoming exams in both subjects. I took the time to go over all the topics we covered in NET102, especially the routing protocols and configurations. I studies some commands to ensure I understood how to set up and manage networks effectively.
+      content: `This week we only focus on reviewing for the upcoming exams in both subjects. I took the time to go over all the topics we covered in NET102, especially the routing protocols and configurations. I studied some commands to ensure I understood how to set up and manage networks effectively.
       
       For IAS101, I reviewed the key concepts we discussed throughout the course, including security policies, legal issues, and the importance of training employees. I also looked into some real-life examples of security breaches to see how lack of planning can lead to vulnerabilities.
       
