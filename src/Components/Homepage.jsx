@@ -113,6 +113,15 @@ Both topics were challenging to learn, but we are eager to understand more. As a
       Overall, it was a week full of learning and practical experience. I’m looking forward to improving my skills in NET102 and gaining more insights in IAS101 in the coming weeks.`,
       date: "09/15/2025",
     },
+    {
+      title: "Week 11 NET102 & IAS101",
+      content: `This week we only focus on reviewing for the upcoming exams in both subjects. I took the time to go over all the topics we covered in NET102, especially the routing protocols and configurations. I studies some commands to ensure I understood how to set up and manage networks effectively.
+      
+      For IAS101, I reviewed the key concepts we discussed throughout the course, including security policies, legal issues, and the importance of training employees. I also looked into some real-life examples of security breaches to see how lack of planning can lead to vulnerabilities.
+      
+      Overall, it was a week dedicated to preparation and review. I want to make sure I'm ready for the exams and that I have a solid understanding of the concepts in both subjects. I'm looking forward to applying what I've learned in practical scenarios in the future.`,
+      date: "09/16/2025",
+    },
   ];
 
   const [selectedBlog, setSelectedBlog] = useState(null);
@@ -189,6 +198,7 @@ Both topics were challenging to learn, but we are eager to understand more. As a
           <option value="Week 8">Week 8</option>
           <option value="Week 9">Week 9</option>
           <option value="Week 10">Week 10</option>
+          <option value="Week 11">Week 11</option>
         </select>
       </div>
 
